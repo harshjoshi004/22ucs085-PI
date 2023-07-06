@@ -1,0 +1,548 @@
+/******************************* BODY ********************************/
+
+body {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/******************************* HEADER ********************************/
+
+header{
+    height: 60px;
+    position: sticky;
+    background-color: white;
+}
+#Jadoo-Logo {   
+    width: 114.912px;
+    height: 33.994px;
+    padding: 0px 80px 0px 20px;
+    flex-shrink: 1;
+}
+.Nav-Block{
+    display: inline;
+}
+.Nav-Block-Text {
+    color: black;
+    text-decoration: none;
+    color: var(--1st, #212832);
+    font-size: 17px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0.5vw 2.5vw;
+}
+#Nav-Select{
+    background-color: white;
+    padding: 9px;
+    border-radius: 15px;
+    border-width: 1px 1px;
+    font-style: italic;
+}
+#Nav-Select:active, #Nav-Select:hover{
+    background-color: #fff1da;
+}
+#Sign-Up-Button{
+    text-decoration: none;
+    color: black;
+    padding: 0.5vw 3vw;
+    border-width: 1px 1px;
+    border-radius: 15px;
+    border-style: solid;
+}
+
+.Nav-Block-Text:hover{
+    color:#f1a501;
+}
+#Sign-Up-Button:hover{
+    color:#df6951;
+    background-color: #fff1da;
+    border-color: #fff1da;
+    box-shadow: 1px 1px 5px #df695146, 1px 1px 5px #df695163;
+}
+/******************************* DIVISTION 1 #HERO ********************************/
+
+.hero{
+    background: url(backgrounds/Travel\ Background.png) no-repeat top right;
+}
+.hero-image{
+    width: 700px;
+    height: 700px;
+}
+
+.hero-h2{
+    color: #DF6951;
+    font-size: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.hero-h1{
+    color: var(--1st, #181E4B);
+    font-size: 84px;
+    font-family: Volkhov;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 89px;
+    letter-spacing: -3.36px;
+    margin: 0px;
+}
+.hero-h3{
+    color: #5E6282;
+font-size: 16px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+line-height: 30px;
+}
+
+.Find-Out-More{
+    margin: 20px;
+    margin-left: 60px;
+}
+.flex-box-hero{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    height: 130px;
+    width: 500px;
+    justify-content: flex-start;
+}
+.flex-item-hero {
+    color: white;
+    font-size: smaller;
+    background-color: #df6951;
+    border-radius: 20px;
+    margin: 10px;
+    height: 60px;
+    width: 300px;
+    align-items: center;
+    }
+#flex-item-play-demo{
+    background-color: white;
+}
+#Play-Demo-Icon{
+    height: 54px;
+}
+
+
+.flex-item-hero:hover{
+    background-color: #df695185;
+    color:#14183E;
+}
+#Play-Demo-Icon:hover{
+    height: 55px;
+}
+/******************************* DIVISTION 2 #CATEGORY ********************************/
+.Category{
+    background: url(backgrounds/Category-Background-1.png) no-repeat top right;
+}
+#p1-Category{
+    color: var(--textclr, #5E6282);
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    font-size: 18px;
+    font-family: Poppins;
+    margin:auto;
+}#p1-Category:hover{
+    color:#DF6951
+}
+#p2-Category{
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    color: var(--3rd, #14183E);
+    text-align: center;
+    font-size: 50px;
+    font-family: Volkhov;
+    font-style:inherit;
+    margin: 0px;
+}#p2-Category:hover{
+    color:#DF6951
+}
+.Category-Flex-Box{
+    padding: 5%;
+    background: url(backgrounds/Category-Background-2.png) no-repeat left bottom;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.Category-Flex-Item{
+    background-color: white;
+    border-radius: 20px;
+    width: 200px;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.Category-Flex-Item:hover{
+    box-shadow: 1px 1px 45px #14183e15,1px 1px 45px #14183e1e;
+}
+.Category-Flex-Item-Heading{
+    color: var(--text-heading-color, #1E1D4C);
+    font-size: 20px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0px;
+}.Category-Flex-Item-Heading:hover{
+    font-size: 21px;
+}
+.Category-Flex-Item-Para{
+    color: var(--textclr, #5E6282);
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    margin:0px;
+}.Category-Flex-Item-Para:hover{
+    font-size: 17px;
+}
+.Category-Flex-Item-Image-Element{
+    width:90px;
+    height: 80px;
+}
+/******************************* DIVISTION 3 #TOPSELLING ********************************/
+a{
+    text-decoration: none;
+    color: var(--textclr, #5E6282);
+}a:hover{
+    color:red;
+}
+.TopSelling{
+    background: url(backgrounds/TopSelling-Background-1.png) no-repeat right;
+}
+#TopSelling-Flex-Box{
+    background: url(backgrounds/TopSelling-Background-2.png) no-repeat left bottom;
+}
+#TopSelling-Card{
+    background: white no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 389px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    align-items: center;
+}
+
+#Booking-Flex-Block{
+    height:900px;
+}
+
+#Card-Image{
+    height: 300px;
+    width: 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.TopSelling-Mini-Flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 290px;
+    color: var(--textclr, #5E6282);
+    font-size: 18px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 124.5%;
+}
+#TopSelling-Bar-Para{
+    height: 30px;
+    /* border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; */
+    text-align: center;
+    /* margin-bottom: 10px; */
+
+    color: var(--textclr, #5E6282);
+    font-size: 16px;
+    font-family: arial;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 124.5%;
+}
+#TopSelling-Mini-Flex-Place:hover{
+    color: red;
+    box-shadow: 0px 0px 10px #14183e15,0px 0px 10px #14183e1a;
+}
+#TopSellng-Mini-Flex-Ammount:hover{
+    color: red;
+    box-shadow: 0px 0px 10px #14183e15,0px 0px 10px #14183e1a;
+}
+#TopSelling-Bar-Para:hover{
+    color:red;
+    box-shadow: 0px 0px 10px #14183e15,0px 0px 10px #14183e1a;
+}
+/******************************* DIVISTION 4 #BOOKINGS ********************************/
+
+#p1-Bookings{
+    color: var(--textclr, #5E6282);
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align:left;
+    font-size: 18px;
+    font-family: Poppins;
+    margin: 20px 0px 0px 78px;
+}#p1-Bookings:hover{
+    color:#DF6951;
+}
+#p2-Bookings{
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    color: var(--3rd, #14183E);
+    text-align:left;
+    font-size: 50px;
+    font-family: Volkhov;    
+    font-style:inherit;
+    margin: 0px 0px 10px 75px;
+}#p2-Bookings:hover{
+    color:#DF6951;
+}
+
+.Booking-Flex-Box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Bookings-image{
+    height: 500px;
+}
+
+.Bookings-Mini-Flex{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Bookings-Logos{
+    height: 48px;
+    margin: 0px 10px;
+}
+.Bookings-Logos:hover{
+    height: 50px;
+    margin: 0px 10px;
+}
+
+#Bookings-Mini-Flex-p{
+    width:300px;
+    height: 50px;
+    color: var(--textclr, #5E6282);
+    font-size: 16px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 400;
+}
+#Bookings-Mini-Flex-p-b{
+    color: var(--textclr, #000000);
+    font-size: 16px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 700;
+}#Bookings-Mini-Flex-p-b:hover{
+    font-size: 17px;
+}
+/******************************* DIVISTION 5 #CAROUSEL ********************************/
+
+.slider-wrapper {
+    margin: 1rem;
+    position: relative;
+    overflow: hidden;
+  }
+  .slides-container {
+    height: 10%;
+    width: 70%;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+    scroll-behavior: smooth;
+  }
+  .slide {
+    width: 100%;
+    height: 100%;
+    flex: 1 0 100%;
+  }
+
+/******************************* DIVISTION 6 #COMPANIES ********************************/
+.Companies-Flex-Box{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}.Companies-Flex-Box:hover{
+    width:1250px;
+}
+/******************************* DIVISTION 7 #SUBSCRIBE FORM ********************************/
+.Subscribe-Form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+input {
+    width: 421px;
+    height: 48px;  
+    border-radius: 10px;
+    background: var(--white, #FFF);
+}
+button{
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+    background: var(--gradient, linear-gradient(180deg, #FF946D 0%, #FF7D68 100%));
+    width: 180px;
+    height: 50px;
+}
+.Submit{
+    background: repeat-y top right url(backgrounds/Category-Background-1.png);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Submit-Flex-Box{
+    background: url(backgrounds/Submit\ form\ Background.PNG);
+    border-radius: 20px;
+    border-top-left-radius: 70px;
+    width: 900px;
+    height: 350px;
+}.Submit-Flex-Box:hover{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.116),0px 0px 20px rgba(0, 0, 0, 0.116);
+}
+.Submit-Form-Title{
+    font-family:Arial;
+    color: var(--textclr, #5E6282);
+    text-align: center;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px;
+    padding: 30px;
+}
+.Submit-Form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#email-input{
+    font-family:Arial, Helvetica, sans-serif;
+    height: 50px;
+    width: 500px;
+    margin: 0px 10px;
+    border-radius: 10px;
+    border-color: white;
+background: var(--white, #FFF);
+}
+#submit{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    width: 80px;
+    margin: 0px 10px;
+    border-radius: 10px;
+    border-color: #FF7D68;
+    color:white;
+background: var(--gradient, linear-gradient(180deg, #FF946D 0%, #FF7D68 100%));
+}
+/******************************* DIVISTION 8 #FOOTER ********************************/
+.Footer-Flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Footer-Flex-Item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 20px;
+    width: 150px;
+    height: 200px;
+    margin:10px;
+    padding: 20px;
+
+    color: var(--textclr, #5E6282);
+    font-size: 18px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 124.5%;
+}
+.Footer-Flex-Item:hover{
+    box-shadow: 1px 1px 15px #5E6282,1px 1px 15px #5E6282;
+}
+
+#Footer-Flex-Item-jadoo{
+    flex-grow: 3;
+}
+#Footer-Flex-Item-handles{
+    flex-grow: 2;
+}
+#Footer-Flex-Item-Headings{
+    color: var(--black, #080809);
+    font-size: 21px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 124.5%;
+}
+#Footer-Flex-Item-Headings:hover{
+    color: palevioletred;
+}
+#Footer-Flex-Item-Headings-Jadoo{
+    color: var(--black, #080809);
+    font-size: 70px;
+    margin:20px;
+    font-family: impact;
+}
+#Footer-Flex-Item-Headings-Jadoo:hover{
+    color: palevioletred;
+}
+.Footer-Social-img{
+    height: 60px;
+    
+}
+.Footer-Social-img:hover{
+    height: 62px;
+}
+.Footer-Social-img-store{
+    height: 37px;
+    border-radius: 7px;
+}
+.Footer-Social-img-store:hover{
+    height: 38px;
+}
+#Footer-Note{
+    color: var(--textclr, #5E6282);
+    font-size: 14px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 124.5%;
+    padding:30px
+}
